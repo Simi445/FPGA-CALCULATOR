@@ -36,7 +36,7 @@ The multiplexing is done in order to select the corresponding anodes and cathods
 
 ### The ROM memory
 The rom memory is essentially an array of vectors that store the operation done on 2 operands, as well as the operands themselves. It consists of 18 bits of data for each of the encoding. We use a flag bit to indicate wether we want to go up/down in the memory, 
-depending on a program counter that we increment or decrement.
+depending on a program counter that we increment or decrement. Below is the rtl desing of an up counter incrementing and navigating trough memory:
 
 ![ROM](./showcase/ROM2.png)
 
