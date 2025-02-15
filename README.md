@@ -30,7 +30,7 @@ To start, each of the buttons used in this project are all debounced, using a co
 ### The multiplexing for the SSD
 The multiplexing is done in order to select the coresponding anodes and cathods for display. We do this by taking the upper bits of the counter, and using them to switch fast trough the anodes and their corresponding data
 
-![SSDM](./showcase/SSD.png)
+![SSDM](./showcase/SSD.jpg)
 
 ---
 
