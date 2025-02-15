@@ -48,7 +48,7 @@ We use this concept for most counters in order to time events accordingly. This 
 ---
 
 ### ALU
-The ALU is heavily inspired on the standard multiplexing design, though it uses some operations differently, leveraging the powerful features of the VHDl language.
+The ALU is heavily inspired on the standard multiplexing design, though it uses some operations differently, leveraging the powerful features of the VHDL language.
 A rough design:
 
 ![ALU](./showcase/ALU.png)
