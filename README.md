@@ -30,7 +30,7 @@ To start, each of the buttons used in this project are all debounced, using a co
 ### The multiplexing for the SSD
 The multiplexing is done in order to select the coresponding anodes and cathods for display. We do this by taking the upper bits of the counter, and using them to switch fast trough the anodes and their corresponding data
 
-![SSDM](./showcase/SSD.jpg)
+![SSDM](./showcase/SSD.png)
 
 ---
 
@@ -38,7 +38,7 @@ The multiplexing is done in order to select the coresponding anodes and cathods 
 The rom memory is essentially an array of vectors that store the operand and the 2 operands. It consists of 18 bits of data for each of the encoding. We use a Flag bit to indicate wether we want to go up/down in the memory, 
 depending on a program counter that we increment or decrement.
 
-![ROM](./showcase/ROM.png)
+![ROM](./showcase/ROM2.png)
 
 ---
 
