@@ -43,7 +43,7 @@ depending on a program counter that we increment or decrement.
 ---
 
 ### Frequency dividing
-We use this concept for most counters in order to time events accordingly. This noticable especially when the FPGA enters a reset state, and one of the leds blinks once evey half a second, with a period of 1 second.
+We use this concept for most counters in order to time events accordingly. This is noticable especially when the FPGA enters a reset state, and one of the leds blinks once evey half a second, with a period of 1 second.
 
 ---
 
